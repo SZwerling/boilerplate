@@ -6,8 +6,7 @@ function _defineProperties(target, props) { for (var i = 0; i < props.length; i+
 
 function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); Object.defineProperty(Constructor, "prototype", { writable: false }); return Constructor; }
 
-//typo for .gitignore fixed
-var name = "Slim";
+var name = "Slim Zwerling is the bomb";
 console.log(name);
 
 var Hangman = /*#__PURE__*/function () {
@@ -24,3 +23,6 @@ var Hangman = /*#__PURE__*/function () {
 
   return Hangman;
 }();
+
+var hangman = new Hangman();
+console.log(hangman.myMethod());

@@ -1,5 +1,5 @@
-//typo for .gitignore fixed
-const name = "Slim"
+
+const name = "Slim Zwerling is the bomb"
 console.log(name);
 
 class Hangman{
@@ -7,3 +7,7 @@ class Hangman{
         return "Testing"
     }
 }
+
+const hangman = new Hangman()
+
+console.log(hangman.myMethod())

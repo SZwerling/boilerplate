@@ -4,7 +4,7 @@
   "description": "",
   "main": "input.js",
   "scripts": {
-    "build": "npx babel src/index.js --out-file public/scripts/bundle.js --presets=@babel/preset-env"
+    "build": "npx babel src/index.js --out-file public/scripts/bundle.js --presets=@babel/preset-env --watch"
   },
   "author": "",
   "license": "ISC",
