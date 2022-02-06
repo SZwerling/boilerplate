@@ -1,4 +1,6 @@
 
-export const yell = (input) => input.toUpperCase() + '!'
+const yell = (input) => input.toUpperCase() + '!'
+
+export default yell;
 
 
