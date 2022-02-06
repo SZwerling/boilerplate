@@ -1,1 +1,1 @@
-(()=>{console.log("Slim Zwerling is the bomb");const o=new class{myMethod(){return"Testing"}};console.log(o.myMethod())})();
+(()=>{"use strict";console.log("Utilities dot js"),console.log("index dot js"),console.log(33),console.log("this is a stickup, chuckles".toUpperCase()+"!")})();

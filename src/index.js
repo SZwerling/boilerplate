@@ -1,12 +1,8 @@
-const name1 = "Slim Zwerling is the bomb"
-console.log(name1);
+//import './utilities'
 
-class Hangman{
-    myMethod() {
-        return "Testing"
-    }
-}
+import { add, phrase } from './utilities'
+import { yell } from './scream'
 
-const hangman = new Hangman()
-
-console.log(hangman.myMethod())
+console.log('index dot js')
+console.log(add(32, 1))
+console.log(yell(phrase))
