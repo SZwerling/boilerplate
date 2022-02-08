@@ -1,4 +1,4 @@
-//namded export
+//named export
 //default export
 
 // export const add = (a, b) => a + b
@@ -14,7 +14,7 @@
 
 const add = (a, b) => a + b
 
-const phrase = 'this is a stickup, chuckles'
+const phrase = 'this is a stickup, buddy'
 
 const square = (x) => x * x
 
