@@ -1,1 +1,1 @@
-(()=>{"use strict";console.log("index dot js"),console.log(33),console.log("this is a stickup, buddy".toUpperCase()+"??"),console.log(2*2)})();
+(()=>{"use strict";console.log("index dot js"),console.log(33),console.log("this is a stickup, Fred".toUpperCase()+"??"),console.log(2*2)})();

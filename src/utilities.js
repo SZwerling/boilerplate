@@ -14,7 +14,7 @@
 
 const add = (a, b) => a + b
 
-const phrase = 'this is a stickup, buddy'
+const phrase = 'this is a stickup, Fred'
 
 const square = (x) => x * x
 

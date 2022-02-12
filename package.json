@@ -4,14 +4,15 @@
   "description": "",
   "main": "input.js",
   "scripts": {
-    "build": "webpack"
+    "dev-server": "webpack serve --open"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@babel/cli": "^7.17.0",
     "@babel/core": "^7.17.0",
-    "@babel/preset-env": "^7.16.11"
+    "@babel/preset-env": "^7.16.11",
+    "webpack-dev-server": "^3.11.3"
   },
   "dependencies": {
     "babel-loader": "^8.2.3",
